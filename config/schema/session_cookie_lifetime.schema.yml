@@ -1,0 +1,15 @@
+# Schema for the configuration files of the Session cookie lifetime module.
+
+session_cookie_lifetime.settings:
+  type: config_object
+  label: 'Session cookie lifetime settings'
+  mapping:
+    lifetime_type:
+      type: string
+      label: 'Lifetime type'
+    lifetime_amount:
+      type: integer
+      label: 'Lifetime amount'
+    lifetime_multiplier:
+      type: integer
+      label: 'Lifetime multiplier'

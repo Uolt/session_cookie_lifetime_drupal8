@@ -1,0 +1,5 @@
+scl.styles:
+  version: 1.x
+  css:
+    theme:
+      css/session_cookie_lifetime.admin.css: {}

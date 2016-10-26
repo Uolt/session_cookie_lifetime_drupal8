@@ -1,0 +1,13 @@
+name: 'Session cookie lifetime'
+description: 'Configure session cookie expiry date'
+type: module
+core: 8.x
+
+configure: session_cookie_lifetime.admin_page
+
+#files[] = tests/session_cookie_lifetime.test
+
+
+
+
+

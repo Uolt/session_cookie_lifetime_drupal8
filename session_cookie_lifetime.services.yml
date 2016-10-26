@@ -1,0 +1,10 @@
+services:
+  session_cookie_lifetime.event_subscriber:
+    class: Drupal\session_cookie_lifetime\EventSubscriber\SessionCookieLifetimeSubscriber
+    arguments: ['@session_cookie_lifetime.service']
+    tags:
+      - {name: event_subscriber}
+
+  session_cookie_lifetime.service:
+    class: Drupal\session_cookie_lifetime\SessionCookieLifetimeService
+    arguments: ['@config.factory', '@session_manager', '@session']

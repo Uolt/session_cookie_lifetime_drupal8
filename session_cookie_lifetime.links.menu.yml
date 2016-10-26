@@ -1,0 +1,6 @@
+session_cookie_lifetime.admin_page:
+  title: 'Session expiration'
+  description: 'Manage the amount of time before session cookies used on the site expire.'
+  route_name: session_cookie_lifetime.admin_page
+  weight: 10
+  parent: system.admin_config_system

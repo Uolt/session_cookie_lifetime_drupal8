@@ -1,0 +1,7 @@
+session_cookie_lifetime.admin_page:
+  path: '/admin/config/system/session_cookie_lifetime'
+  defaults:
+    _form: '\Drupal\session_cookie_lifetime\Form\SessionCookieLifetimeAdminForm'
+    _title: 'Session expiration'
+  requirements:
+    _permission: 'administer site configuration'
